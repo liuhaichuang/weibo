@@ -23,3 +23,8 @@ Route::get('/help','StaticPagesController@help')->name('help');
 
 Route::get('/about','StaticPagesController@about')->name('about');
 
+
+
+//登录
+Route::get('/signup','UsersController@create')->name('signup');
+
